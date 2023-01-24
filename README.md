@@ -29,7 +29,7 @@
 
   - #### GET localhost:3000/food
     - query params
-      - `keyword` String or substring to search through the food trucks `food item` list look for exactly what you want to eat. Try taco.
+      - `keyword` String or substring to search through the food trucks `food item` list to find exactly what you want to eat. Try taco.
       - `topRated` Boolean determining if you would like to filter the food trucks based on their rating in descending order.
       - `reviews` Boolean determining if you would like to view the user written reviews for the food truck.
       - `limit` Number to limit the amount of food trucks to return. Defaults to 10.
