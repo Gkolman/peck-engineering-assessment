@@ -12,7 +12,7 @@
 
 - ### The API
   - The server will be running on port 3000.
-  - I reccomend using Postman for these request which can befound [here](https://www.postman.com/downloads/).
+  - I reccomend using Postman for these request which can be downloaded [here](https://www.postman.com/downloads/).
   
 - #### Endpoints
   - ##### GET localhost:3000/food/trucks/foodTruckId
