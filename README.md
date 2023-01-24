@@ -5,7 +5,7 @@
   - Download docker [here](https://www.docker.com/products/docker-desktop/).
   - cd into the cloned repository directory and run `npm install` in your terminal.
 - ### Docker incoming!
-  - In the directory run `npm run docker:start` this will download node and Mysql images and build the docker container so this may take a couple minutes.
+  - In the directory run `npm run docker:start` this will download the node and Mysql images then build the containers so this may take a couple minutes.
   - Once finished open a seperate terminal.
     - You can now ssh into the containers database by running `npm run db:connect`.
     - You can also ssh into the node application by running `npm run docker:connect` and type `ls` to see the application contents.
