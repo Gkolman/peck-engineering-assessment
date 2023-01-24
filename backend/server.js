@@ -21,7 +21,6 @@ app.use('*', (req, res, next) => {
 });
 
 app.get('/food/trucks/:id', async function (req, res) {
-  console.log("hitting here")
   return await FoodTrucks.getWithId(req, res, sequelizeConn)
 });
 

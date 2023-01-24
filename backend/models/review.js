@@ -1,5 +1,7 @@
 const { DataTypes, Sequelize } = require('sequelize');
-
+/**
+ * @description Defines the FoodTruck table.
+ */
 module.exports = (sequelizeConn) => {
   return sequelizeConn.define('Review', 
   {

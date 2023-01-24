@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "start:dev": "nodemon backend/server.js",
-    "docker:start": "docker compose up",
+    "docker:start": "docker compose create; docker compose start mysql; docker compose start node; docker compose restart node",
     "docker:connect": "docker exec -it myApp /bin/bash",
     "db:connect": "docker exec -it myDb mysql -u root -ppassword peck"
   },

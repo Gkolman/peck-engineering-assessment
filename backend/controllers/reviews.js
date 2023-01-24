@@ -12,7 +12,7 @@ module.exports = {
   },
   getReviewsForTruckList: async (foodTrucks, sequelizeConn) => {
     const foodTruckIndex = foodTrucks.reduce((index, foodTruck) => {
-      const { dataValues } = foodTruck
+      const dataValues = foodTruck.dataValues || foodTruck
       index[dataValues.id] = dataValues
       delete index[dataValues.id].id
       return index
