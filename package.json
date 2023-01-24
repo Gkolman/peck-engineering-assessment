@@ -1,0 +1,41 @@
+{
+  "name": "peck-engineering-assessment",
+  "version": "1.0.0",
+  "description": "peck",
+  "main": "backend/server.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "start:dev": "nodemon backend/server.js",
+    "docker:start": "docker compose up",
+    "docker:connect": "docker exec -it myApp /bin/bash",
+    "db:connect": "docker exec -it myDb mysql -u root -ppassword peck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gkolman/peck-engineering-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gkolman/peck-engineering-assessment/issues"
+  },
+  "homepage": "https://github.com/Gkolman/peck-engineering-assessment#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lorem-ipsum": "^2.0.8",
+    "mysql2": "^3.0.1",
+    "random-name": "^0.1.2",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
