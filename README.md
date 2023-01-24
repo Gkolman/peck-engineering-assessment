@@ -2,7 +2,7 @@
 - ### Getting started
   - First clone down the repo using `git clone`.
   - If you do not have npm installed you will need to install it. Directions can be found [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-  - Download docker [here](https://www.docker.com/products/docker-desktop/).
+  - Download Docker [here](https://www.docker.com/products/docker-desktop/).
   - cd into the cloned repository directory and run `npm install` in your terminal.
 - ### Docker incoming!
   - In the directory run `npm run docker:start` this will download the node and Mysql images then build the containers so this may take a couple minutes.
